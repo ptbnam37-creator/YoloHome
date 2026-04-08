@@ -3,10 +3,11 @@
   "private": true,
   "version": "1.0.0",
   "workspaces": [
-    "frontend"
+    "frontend",
+    "backend"
   ],
   "scripts": {
-    "dev": "npm run dev --workspace=frontend",
+    "dev": "tsx backend/server.ts",
     "build": "npm run build --workspace=frontend",
     "preview": "npm run preview --workspace=frontend",
     "clean": "npm run clean --workspace=frontend",

@@ -1,0 +1,11 @@
+{
+  "name": "yolobit-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "mqtt": "^5.15.1"
+  }
+}
