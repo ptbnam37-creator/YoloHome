@@ -1,0 +1,5 @@
+{
+  "name": "Yolo:Bit Smart Home Dashboard",
+  "description": "Giao diện điều khiển nhà thông minh cao cấp cho Yolo:Bit, tích hợp giám sát cảm biến, điều khiển thiết bị và trợ lý AI (Giọng nói & Khuôn mặt).",
+  "requestFramePermissions": ["microphone", "camera"]
+}
