@@ -53,9 +53,10 @@ export async function createApp() {
 export async function startServer() {
   const app = await createApp();
   const PORT = 3000;
+  const HOST = process.env.HOST || '127.0.0.1';
 
-  app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+  app.listen(PORT, HOST, () => {
+    console.log(`Server running on http://${HOST}:${PORT}`);
   });
 }
 
